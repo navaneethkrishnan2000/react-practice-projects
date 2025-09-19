@@ -22,16 +22,18 @@ header > h1 {
   font-family: Inter;
 }
 
-article.journal-entry {
+.journal-entry {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-article.journal-entry .marker {
+.marker {
   width: 7px;
   margin-right: 4px;
 }
 
-article.journal-entry .main-image-container {
+.main-image-container {
   width: 125px;
   height: 168px;
   overflow: hidden;
@@ -40,11 +42,40 @@ article.journal-entry .main-image-container {
   margin-right: 19px;
 }
 
-article.journal-entry .main-image {
+.main-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+.location-info {
+  display: flex;
+  align-items: center;
+}
+
+.location-info > span {
+  padding-left: 15px;
+}
+.location-info > a {
+  padding-left: 15px;
+}
+
+.contact-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+
+
+
+
+
 
 
 

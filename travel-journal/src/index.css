@@ -4,7 +4,7 @@ html, body {
 
 header {
     background: #F55A5A;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     color: white;

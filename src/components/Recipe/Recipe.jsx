@@ -7,7 +7,7 @@ export default function Recipe(props) {
             aria-live="polite"
         >
             <h2>Chef Claude recommends:</h2>
-            <ReactMarkdown>
+            <ReactMarkdown >
                 {props.recipe}
             </ReactMarkdown>
         </section>
